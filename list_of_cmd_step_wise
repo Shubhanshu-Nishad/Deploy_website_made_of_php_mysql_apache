@@ -9,6 +9,9 @@ $ docker run -it --rm --name my-running-app my-php-app
 $ docker run -d -p 80:80 --name my-apache-php-app -v "$PWD":/var/www/html php:7.2-apache 
 
 -->  Replace $PWD because it is valid in only linux terminal so you have to replace your project location with this part e.g. C:\Users\Asus\Music\Dockerfile_learning
+--> docker run -d -p 80:80 --name my-apache-php-app -v C:\Users\Asus\Music\Dockerfile_learning:/var/www/html php:7.2-apache 
+
+
 
 # To start functioning of .yml file 
 
